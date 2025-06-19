@@ -69,6 +69,21 @@
       border-left-color: #9999ff;
       color: #eee;
     }
+    
+    body.dark-theme .project-title,
+    body.dark-theme .project-description,
+    body.dark-theme .cert-info h3,
+    body.dark-theme .cert-info p,
+    body.dark-theme .contact-info h3,
+    body.dark-theme .contact-info p,
+    body.dark-theme .contact-info a,
+    body.dark-theme .section-title,
+    body.dark-theme .about-text,
+    body.dark-theme .skill-category-title {
+        background-color: transparent;
+        color: inherit;
+    }
+
 
     body.dark-theme .contact-item,
     body.dark-theme .cert-item {
@@ -811,7 +826,6 @@
   <div class="cursor-dot" data-cursor-dot></div>
   <div class="cursor-outline" data-cursor-outline></div>
 
-  <!-- Dark/Light Mode Toggle Button -->
   <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
 
   <header class="header">
@@ -935,6 +949,7 @@
               <h3 class="project-title">Doctor's Handwritten Prescription Recognition</h3>
               <p class="project-description">
                 Multilingual OCR model using CNN-BiLSTM + Tesseract. Recognizes Bengali, Hindi, and English. Achieved 85%+ accuracy.
+                <a href="https://colab.research.google.com/drive/1vPC-ctx2RtjDuZZYuzotNCrnu3s60IiK?pli=1#scrollTo=Am4zVId08mjc" target="_blank" style="color: #667eea; text-decoration: underline; font-weight: bold;">View Code</a>
               </p>
               <div class="project-tech">
                 <span class="tech-tag">Python</span>
@@ -949,6 +964,7 @@
               <h3 class="project-title">FitTrack – Fitness Tracking App</h3>
               <p class="project-description">
                 Comprehensive fitness tracking application that helps users monitor their weight and provides personalized exercise suggestions.
+                <a href="https://ritzz0311.github.io/Fitness-Tracker/" target="_blank" style="color: #667eea; text-decoration: underline; font-weight: bold;">View Project</a>
               </p>
               <div class="project-tech">
                 <span class="tech-tag">JavaScript</span>
@@ -956,16 +972,29 @@
                 <span class="tech-tag">CSS</span>
               </div>
             </div>
-            
+
+            <div class="project-card">
+              <div class="project-icon">🎬</div>
+              <h3 class="project-title">Netflix Clone</h3>
+              <p class="project-description">
+                A front-end replica of the Netflix streaming service, showcasing a responsive and interactive user interface. 
+                <a href="https://ritzz0311.github.io/Netflix-Clone/" target="_blank" style="color: #667eea; text-decoration: underline; font-weight: bold;">View Project</a>
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
             <div class="project-card">
               <div class="project-icon">🤖</div>
-              <h3 class="project-title">Multilingual Chatbot</h3>
+              <h3 class="project-title"> Chatbot</h3>
               <p class="project-description">
-                Interactive chatbot supporting Bengali, Hindi, and Odia for conversations and query assistance across multiple languages.
+                Interactive chatbot supporting  conversations and query assistance across.
               </p>
               <div class="project-tech">
                 <span class="tech-tag">AI/ML</span>
-                <span class="tech-tag">NLP</span>
+                <span class="tech-tag">Flask</span>
                 <span class="tech-tag">Python</span>
               </div>
             </div>
